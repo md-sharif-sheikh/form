@@ -1,0 +1,125 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Poppins", sans-seriff;
+    font-size: 14ps;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6{
+     font-family: "Rajdhani", sans-serif;
+}
+
+.form-layout{
+    width: 100%;
+    height:100vh;
+    background: url(../img/nature.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 1140px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-inner{
+    width: 60%;
+    background-color: white;
+    display: flex;
+    padding: 30px 20px 30px;
+    border-radius: 18px 0px;
+    opacity: 0.75;
+}
+
+.left, .right{
+    flex-basis: 50%;
+}
+
+.left{
+    background: url(../img/office\ work.png) center center no-repeat;
+    background-size: contain;
+}
+
+.right h3{
+      font-size: 25px;
+      color: darkblue;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+}
+
+.right input{
+     width: 100%;
+     padding: 10px 5px;
+     margin-bottom: 7px;
+}
+
+.right input::placeholder{
+    font-family: poppins;
+}
+
+.right input[type="date"]{
+    font-family: poppins;
+}
+
+.right select{
+    font-family: poppins;
+}
+
+
+.right textarea{
+    font-family: poppins;
+}
+
+.right select{
+     width: 100%;
+     padding: 10px 5px;
+     margin-bottom: 7px;
+}
+
+.right textarea{
+     width: 100%;
+     padding: 10px 5px;
+     margin-bottom: 7px;
+}
+
+.right .name input{
+    width: 48.5%;
+}
+
+.right .name .fname{
+    margin-right: 5px;
+}
+.tc input{
+    width: auto;
+}
+
+.tc{
+    margin-bottom: 10px;
+}
+
+.tc span a{
+    text-decoration: none;
+}
+
+.submit-btns input{
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
